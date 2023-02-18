@@ -1,0 +1,16 @@
+-- plugins
+require("mharwood.plugins-setup")
+require("mharwood.plugins.comment")
+require("mharwood.plugins.nvim-tree")
+require("mharwood.plugins.lualine")
+require("mharwood.plugins.telescope")
+require("mharwood.plugins.nvim-tree")
+require("mharwood.plugins.nvim-cmp")
+require("mharwood.plugins.lsp.lsp")
+require("mharwood.plugins.lsp.lspsaga")
+require("mharwood.plugins.autoclosing")
+require("mharwood.plugins.gitsigns")
+-- core
+require("mharwood.core.options")
+require("mharwood.core.keymaps")
+require("mharwood.core.colorscheme")
